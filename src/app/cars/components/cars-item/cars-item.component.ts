@@ -10,14 +10,14 @@ export class CarsItemComponent implements OnInit {
   @Input() brand: string;
   @Input() carInfo: Car;
   carImage: string;
-  carLink: string;
+  lowerCaseBrand: string;
 
   constructor() { }
 
   ngOnInit() {
     if (!this.carInfo) { return; }
     this.carImage = `../../../assets/cars/${this.carInfo.image}`;
-    this.carLink = `/cars/${this.brand.toLocaleLowerCase()}/${this.carInfo.id}`;
+    this.lowerCaseBrand = this.brand.toLocaleLowerCase();
   }
 
 }
