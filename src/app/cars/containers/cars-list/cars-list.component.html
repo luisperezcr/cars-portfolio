@@ -1,1 +1,6 @@
-<p>cars-list works!</p>
+<div *ngFor="let brand of carsData">
+  <h1>{{ brand.brand_name }}</h1>
+  <div *ngFor="let car of brand.cars">
+    <app-cars-item [brand]="brand.brand_name" [carInfo]="car"></app-cars-item>
+  </div>
+</div>

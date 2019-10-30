@@ -4,7 +4,7 @@ import { CarsListComponent } from './containers/cars-list/cars-list.component';
 import { CarsService } from './services/cars.service';
 import { CarsRoutingModule } from './cars-routing.module';
 import { CarsItemComponent } from './components/cars-item/cars-item.component';
-
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
@@ -14,7 +14,8 @@ import { CarsItemComponent } from './components/cars-item/cars-item.component';
   ],
   imports: [
     CommonModule,
-    CarsRoutingModule
+    CarsRoutingModule,
+    SharedModule
   ],
   providers: [CarsService]
 })

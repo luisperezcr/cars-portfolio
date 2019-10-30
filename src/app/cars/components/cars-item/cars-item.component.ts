@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Car } from '../../models/car.interface';
 
 @Component({
   selector: 'app-cars-item',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cars-item.component.scss']
 })
 export class CarsItemComponent implements OnInit {
+  @Input() brand: string;
+  @Input() carInfo: Car;
+  carImage: string;
 
   constructor() { }
 
   ngOnInit() {
+    if (!this.carInfo) { return; }
+    this.carImage = `../../../assets/cars/${this.carInfo.image}`;
   }
 
 }
