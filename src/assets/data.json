@@ -8,7 +8,34 @@
         "model": "Camaro ZL1",
         "year": 2019,
         "brand": "Chevrolet",
-        "price": 62000
+        "price": 62000,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium doloremque quod, minima architecto inventore qui ea itaque voluptatibus culpa recusandae, aperiam dicta officiis eveniet fuga quidem veritatis asperiores suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia eius, natus id, ipsum sed aliquid iste expedita quae suscipit excepturi qui fugit incidunt autem. Provident laudantium at omnis tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dicta sed tempora eaque sint, culpa nostrum repudiandae necessitatibus sunt. Magni aut numquam, ad repellendus consequuntur accusamus consequatur dicta neque voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui ab, delectus aut saepe et dolorum sed placeat consequuntur esse quis adipisci eos cum alias odio sapiente ad asperiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, placeat consectetur. Ullam ab sint ipsa fuga facere, harum cupiditate aut, necessitatibus provident ipsam praesentium velit magnam, beatae voluptatem voluptates hic! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, beatae animi placeat quidem quia voluptatem molestias ea rerum, quasi amet reiciendis? Autem doloribus ut natus quod. Voluptates debitis mollitia error!",
+        "specs": [
+          {
+            "title": "engine",
+            "values": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "title": "comfort",
+            "values": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "title": "safety",
+            "values": [
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
       },
       {
         "id": 2,
@@ -16,7 +43,34 @@
         "model": "Cavalier Premium",
         "year": 2019,
         "brand": "Chevrolet",
-        "price": 24000
+        "price": 24000,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium doloremque quod, minima architecto inventore qui ea itaque voluptatibus culpa recusandae, aperiam dicta officiis eveniet fuga quidem veritatis asperiores suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia eius, natus id, ipsum sed aliquid iste expedita quae suscipit excepturi qui fugit incidunt autem. Provident laudantium at omnis tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dicta sed tempora eaque sint, culpa nostrum repudiandae necessitatibus sunt. Magni aut numquam, ad repellendus consequuntur accusamus consequatur dicta neque voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui ab, delectus aut saepe et dolorum sed placeat consequuntur esse quis adipisci eos cum alias odio sapiente ad asperiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, placeat consectetur. Ullam ab sint ipsa fuga facere, harum cupiditate aut, necessitatibus provident ipsam praesentium velit magnam, beatae voluptatem voluptates hic! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, beatae animi placeat quidem quia voluptatem molestias ea rerum, quasi amet reiciendis? Autem doloribus ut natus quod. Voluptates debitis mollitia error!",
+        "specs": [
+          {
+            "title": "engine",
+            "values": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "title": "comfort",
+            "values": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "title": "safety",
+            "values": [
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
       },
       {
         "id": 3,
@@ -24,7 +78,34 @@
         "model": "Colorado Z71",
         "year": 2019,
         "brand": "Chevrolet",
-        "price": 32995
+        "price": 32995,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium doloremque quod, minima architecto inventore qui ea itaque voluptatibus culpa recusandae, aperiam dicta officiis eveniet fuga quidem veritatis asperiores suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia eius, natus id, ipsum sed aliquid iste expedita quae suscipit excepturi qui fugit incidunt autem. Provident laudantium at omnis tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dicta sed tempora eaque sint, culpa nostrum repudiandae necessitatibus sunt. Magni aut numquam, ad repellendus consequuntur accusamus consequatur dicta neque voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui ab, delectus aut saepe et dolorum sed placeat consequuntur esse quis adipisci eos cum alias odio sapiente ad asperiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, placeat consectetur. Ullam ab sint ipsa fuga facere, harum cupiditate aut, necessitatibus provident ipsam praesentium velit magnam, beatae voluptatem voluptates hic! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, beatae animi placeat quidem quia voluptatem molestias ea rerum, quasi amet reiciendis? Autem doloribus ut natus quod. Voluptates debitis mollitia error!",
+        "specs": [
+          {
+            "title": "engine",
+            "values": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "title": "comfort",
+            "values": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "title": "safety",
+            "values": [
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
       },
       {
         "id": 4,
@@ -32,7 +113,34 @@
         "model": "Impala",
         "year": 2019,
         "brand": "Chevrolet",
-        "price": 28000
+        "price": 28000,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium doloremque quod, minima architecto inventore qui ea itaque voluptatibus culpa recusandae, aperiam dicta officiis eveniet fuga quidem veritatis asperiores suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia eius, natus id, ipsum sed aliquid iste expedita quae suscipit excepturi qui fugit incidunt autem. Provident laudantium at omnis tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dicta sed tempora eaque sint, culpa nostrum repudiandae necessitatibus sunt. Magni aut numquam, ad repellendus consequuntur accusamus consequatur dicta neque voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui ab, delectus aut saepe et dolorum sed placeat consequuntur esse quis adipisci eos cum alias odio sapiente ad asperiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, placeat consectetur. Ullam ab sint ipsa fuga facere, harum cupiditate aut, necessitatibus provident ipsam praesentium velit magnam, beatae voluptatem voluptates hic! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, beatae animi placeat quidem quia voluptatem molestias ea rerum, quasi amet reiciendis? Autem doloribus ut natus quod. Voluptates debitis mollitia error!",
+        "specs": [
+          {
+            "title": "engine",
+            "values": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "title": "comfort",
+            "values": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "title": "safety",
+            "values": [
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -45,7 +153,34 @@
         "model": "Explorer",
         "year": 2019,
         "brand": "Ford",
-        "price": 45000
+        "price": 45000,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium doloremque quod, minima architecto inventore qui ea itaque voluptatibus culpa recusandae, aperiam dicta officiis eveniet fuga quidem veritatis asperiores suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia eius, natus id, ipsum sed aliquid iste expedita quae suscipit excepturi qui fugit incidunt autem. Provident laudantium at omnis tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dicta sed tempora eaque sint, culpa nostrum repudiandae necessitatibus sunt. Magni aut numquam, ad repellendus consequuntur accusamus consequatur dicta neque voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui ab, delectus aut saepe et dolorum sed placeat consequuntur esse quis adipisci eos cum alias odio sapiente ad asperiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, placeat consectetur. Ullam ab sint ipsa fuga facere, harum cupiditate aut, necessitatibus provident ipsam praesentium velit magnam, beatae voluptatem voluptates hic! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, beatae animi placeat quidem quia voluptatem molestias ea rerum, quasi amet reiciendis? Autem doloribus ut natus quod. Voluptates debitis mollitia error!",
+        "specs": [
+          {
+            "title": "engine",
+            "values": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "title": "comfort",
+            "values": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "title": "safety",
+            "values": [
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
       },
       {
         "id": 2,
@@ -53,7 +188,34 @@
         "model": "F-150",
         "year": 2019,
         "brand": "Ford",
-        "price": 65000
+        "price": 65000,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium doloremque quod, minima architecto inventore qui ea itaque voluptatibus culpa recusandae, aperiam dicta officiis eveniet fuga quidem veritatis asperiores suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia eius, natus id, ipsum sed aliquid iste expedita quae suscipit excepturi qui fugit incidunt autem. Provident laudantium at omnis tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dicta sed tempora eaque sint, culpa nostrum repudiandae necessitatibus sunt. Magni aut numquam, ad repellendus consequuntur accusamus consequatur dicta neque voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui ab, delectus aut saepe et dolorum sed placeat consequuntur esse quis adipisci eos cum alias odio sapiente ad asperiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, placeat consectetur. Ullam ab sint ipsa fuga facere, harum cupiditate aut, necessitatibus provident ipsam praesentium velit magnam, beatae voluptatem voluptates hic! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, beatae animi placeat quidem quia voluptatem molestias ea rerum, quasi amet reiciendis? Autem doloribus ut natus quod. Voluptates debitis mollitia error!",
+        "specs": [
+          {
+            "title": "engine",
+            "values": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "title": "comfort",
+            "values": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "title": "safety",
+            "values": [
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
       },
       {
         "id": 3,
@@ -61,7 +223,34 @@
         "model": "Ranger",
         "year": 2019,
         "brand": "Ford",
-        "price": 55000
+        "price": 55000,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium doloremque quod, minima architecto inventore qui ea itaque voluptatibus culpa recusandae, aperiam dicta officiis eveniet fuga quidem veritatis asperiores suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia eius, natus id, ipsum sed aliquid iste expedita quae suscipit excepturi qui fugit incidunt autem. Provident laudantium at omnis tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dicta sed tempora eaque sint, culpa nostrum repudiandae necessitatibus sunt. Magni aut numquam, ad repellendus consequuntur accusamus consequatur dicta neque voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui ab, delectus aut saepe et dolorum sed placeat consequuntur esse quis adipisci eos cum alias odio sapiente ad asperiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, placeat consectetur. Ullam ab sint ipsa fuga facere, harum cupiditate aut, necessitatibus provident ipsam praesentium velit magnam, beatae voluptatem voluptates hic! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, beatae animi placeat quidem quia voluptatem molestias ea rerum, quasi amet reiciendis? Autem doloribus ut natus quod. Voluptates debitis mollitia error!",
+        "specs": [
+          {
+            "title": "engine",
+            "values": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "title": "comfort",
+            "values": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "title": "safety",
+            "values": [
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
       },
       {
         "id": 4,
@@ -69,7 +258,34 @@
         "model": "Raptor",
         "year": 2019,
         "brand": "Ford",
-        "price": 75000
+        "price": 75000,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium doloremque quod, minima architecto inventore qui ea itaque voluptatibus culpa recusandae, aperiam dicta officiis eveniet fuga quidem veritatis asperiores suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia eius, natus id, ipsum sed aliquid iste expedita quae suscipit excepturi qui fugit incidunt autem. Provident laudantium at omnis tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dicta sed tempora eaque sint, culpa nostrum repudiandae necessitatibus sunt. Magni aut numquam, ad repellendus consequuntur accusamus consequatur dicta neque voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui ab, delectus aut saepe et dolorum sed placeat consequuntur esse quis adipisci eos cum alias odio sapiente ad asperiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, placeat consectetur. Ullam ab sint ipsa fuga facere, harum cupiditate aut, necessitatibus provident ipsam praesentium velit magnam, beatae voluptatem voluptates hic! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, beatae animi placeat quidem quia voluptatem molestias ea rerum, quasi amet reiciendis? Autem doloribus ut natus quod. Voluptates debitis mollitia error!",
+        "specs": [
+          {
+            "title": "engine",
+            "values": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "title": "comfort",
+            "values": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "title": "safety",
+            "values": [
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -82,7 +298,34 @@
         "model": "Altima",
         "year": 2019,
         "brand": "Nissan",
-        "price": 26000
+        "price": 26000,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium doloremque quod, minima architecto inventore qui ea itaque voluptatibus culpa recusandae, aperiam dicta officiis eveniet fuga quidem veritatis asperiores suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia eius, natus id, ipsum sed aliquid iste expedita quae suscipit excepturi qui fugit incidunt autem. Provident laudantium at omnis tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dicta sed tempora eaque sint, culpa nostrum repudiandae necessitatibus sunt. Magni aut numquam, ad repellendus consequuntur accusamus consequatur dicta neque voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui ab, delectus aut saepe et dolorum sed placeat consequuntur esse quis adipisci eos cum alias odio sapiente ad asperiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, placeat consectetur. Ullam ab sint ipsa fuga facere, harum cupiditate aut, necessitatibus provident ipsam praesentium velit magnam, beatae voluptatem voluptates hic! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, beatae animi placeat quidem quia voluptatem molestias ea rerum, quasi amet reiciendis? Autem doloribus ut natus quod. Voluptates debitis mollitia error!",
+        "specs": [
+          {
+            "title": "engine",
+            "values": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "title": "comfort",
+            "values": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "title": "safety",
+            "values": [
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
       },
       {
         "id": 2,
@@ -90,7 +333,34 @@
         "model": "Frontier",
         "year": 2019,
         "brand": "Nissan",
-        "price": 35000
+        "price": 35000,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium doloremque quod, minima architecto inventore qui ea itaque voluptatibus culpa recusandae, aperiam dicta officiis eveniet fuga quidem veritatis asperiores suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia eius, natus id, ipsum sed aliquid iste expedita quae suscipit excepturi qui fugit incidunt autem. Provident laudantium at omnis tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dicta sed tempora eaque sint, culpa nostrum repudiandae necessitatibus sunt. Magni aut numquam, ad repellendus consequuntur accusamus consequatur dicta neque voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui ab, delectus aut saepe et dolorum sed placeat consequuntur esse quis adipisci eos cum alias odio sapiente ad asperiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, placeat consectetur. Ullam ab sint ipsa fuga facere, harum cupiditate aut, necessitatibus provident ipsam praesentium velit magnam, beatae voluptatem voluptates hic! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, beatae animi placeat quidem quia voluptatem molestias ea rerum, quasi amet reiciendis? Autem doloribus ut natus quod. Voluptates debitis mollitia error!",
+        "specs": [
+          {
+            "title": "engine",
+            "values": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "title": "comfort",
+            "values": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "title": "safety",
+            "values": [
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
       },
       {
         "id": 3,
@@ -98,7 +368,34 @@
         "model": "Qashqai",
         "year": 2019,
         "brand": "Nissan",
-        "price": 36000
+        "price": 36000,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium doloremque quod, minima architecto inventore qui ea itaque voluptatibus culpa recusandae, aperiam dicta officiis eveniet fuga quidem veritatis asperiores suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia eius, natus id, ipsum sed aliquid iste expedita quae suscipit excepturi qui fugit incidunt autem. Provident laudantium at omnis tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dicta sed tempora eaque sint, culpa nostrum repudiandae necessitatibus sunt. Magni aut numquam, ad repellendus consequuntur accusamus consequatur dicta neque voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui ab, delectus aut saepe et dolorum sed placeat consequuntur esse quis adipisci eos cum alias odio sapiente ad asperiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, placeat consectetur. Ullam ab sint ipsa fuga facere, harum cupiditate aut, necessitatibus provident ipsam praesentium velit magnam, beatae voluptatem voluptates hic! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, beatae animi placeat quidem quia voluptatem molestias ea rerum, quasi amet reiciendis? Autem doloribus ut natus quod. Voluptates debitis mollitia error!",
+        "specs": [
+          {
+            "title": "engine",
+            "values": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "title": "comfort",
+            "values": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "title": "safety",
+            "values": [
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
       },
       {
         "id": 4,
@@ -106,7 +403,34 @@
         "model": "Sentra",
         "year": 2019,
         "brand": "Nissan",
-        "price": 25500
+        "price": 25500,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium doloremque quod, minima architecto inventore qui ea itaque voluptatibus culpa recusandae, aperiam dicta officiis eveniet fuga quidem veritatis asperiores suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia eius, natus id, ipsum sed aliquid iste expedita quae suscipit excepturi qui fugit incidunt autem. Provident laudantium at omnis tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dicta sed tempora eaque sint, culpa nostrum repudiandae necessitatibus sunt. Magni aut numquam, ad repellendus consequuntur accusamus consequatur dicta neque voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui ab, delectus aut saepe et dolorum sed placeat consequuntur esse quis adipisci eos cum alias odio sapiente ad asperiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, placeat consectetur. Ullam ab sint ipsa fuga facere, harum cupiditate aut, necessitatibus provident ipsam praesentium velit magnam, beatae voluptatem voluptates hic! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, beatae animi placeat quidem quia voluptatem molestias ea rerum, quasi amet reiciendis? Autem doloribus ut natus quod. Voluptates debitis mollitia error!",
+        "specs": [
+          {
+            "title": "engine",
+            "values": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "title": "comfort",
+            "values": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "title": "safety",
+            "values": [
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -119,7 +443,34 @@
         "model": "Corolla",
         "year": 2019,
         "brand": "Toyota",
-        "price": 23500
+        "price": 23500,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium doloremque quod, minima architecto inventore qui ea itaque voluptatibus culpa recusandae, aperiam dicta officiis eveniet fuga quidem veritatis asperiores suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia eius, natus id, ipsum sed aliquid iste expedita quae suscipit excepturi qui fugit incidunt autem. Provident laudantium at omnis tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dicta sed tempora eaque sint, culpa nostrum repudiandae necessitatibus sunt. Magni aut numquam, ad repellendus consequuntur accusamus consequatur dicta neque voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui ab, delectus aut saepe et dolorum sed placeat consequuntur esse quis adipisci eos cum alias odio sapiente ad asperiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, placeat consectetur. Ullam ab sint ipsa fuga facere, harum cupiditate aut, necessitatibus provident ipsam praesentium velit magnam, beatae voluptatem voluptates hic! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, beatae animi placeat quidem quia voluptatem molestias ea rerum, quasi amet reiciendis? Autem doloribus ut natus quod. Voluptates debitis mollitia error!",
+        "specs": [
+          {
+            "title": "engine",
+            "values": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "title": "comfort",
+            "values": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "title": "safety",
+            "values": [
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
       },
       {
         "id": 2,
@@ -127,7 +478,34 @@
         "model": "Hilux",
         "year": 2019,
         "brand": "Toyota",
-        "price": 32000
+        "price": 32000,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium doloremque quod, minima architecto inventore qui ea itaque voluptatibus culpa recusandae, aperiam dicta officiis eveniet fuga quidem veritatis asperiores suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia eius, natus id, ipsum sed aliquid iste expedita quae suscipit excepturi qui fugit incidunt autem. Provident laudantium at omnis tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dicta sed tempora eaque sint, culpa nostrum repudiandae necessitatibus sunt. Magni aut numquam, ad repellendus consequuntur accusamus consequatur dicta neque voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui ab, delectus aut saepe et dolorum sed placeat consequuntur esse quis adipisci eos cum alias odio sapiente ad asperiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, placeat consectetur. Ullam ab sint ipsa fuga facere, harum cupiditate aut, necessitatibus provident ipsam praesentium velit magnam, beatae voluptatem voluptates hic! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, beatae animi placeat quidem quia voluptatem molestias ea rerum, quasi amet reiciendis? Autem doloribus ut natus quod. Voluptates debitis mollitia error!",
+        "specs": [
+          {
+            "title": "engine",
+            "values": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "title": "comfort",
+            "values": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "title": "safety",
+            "values": [
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
       },
       {
         "id": 3,
@@ -135,7 +513,34 @@
         "model": "RAV4",
         "year": 2019,
         "brand": "Toyota",
-        "price": 38000
+        "price": 38000,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium doloremque quod, minima architecto inventore qui ea itaque voluptatibus culpa recusandae, aperiam dicta officiis eveniet fuga quidem veritatis asperiores suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia eius, natus id, ipsum sed aliquid iste expedita quae suscipit excepturi qui fugit incidunt autem. Provident laudantium at omnis tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dicta sed tempora eaque sint, culpa nostrum repudiandae necessitatibus sunt. Magni aut numquam, ad repellendus consequuntur accusamus consequatur dicta neque voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui ab, delectus aut saepe et dolorum sed placeat consequuntur esse quis adipisci eos cum alias odio sapiente ad asperiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, placeat consectetur. Ullam ab sint ipsa fuga facere, harum cupiditate aut, necessitatibus provident ipsam praesentium velit magnam, beatae voluptatem voluptates hic! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, beatae animi placeat quidem quia voluptatem molestias ea rerum, quasi amet reiciendis? Autem doloribus ut natus quod. Voluptates debitis mollitia error!",
+        "specs": [
+          {
+            "title": "engine",
+            "values": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "title": "comfort",
+            "values": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "title": "safety",
+            "values": [
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
       },
       {
         "id": 4,
@@ -143,7 +548,34 @@
         "model": "Yaris",
         "year": 2019,
         "brand": "Toyota",
-        "price": 24000
+        "price": 24000,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium doloremque quod, minima architecto inventore qui ea itaque voluptatibus culpa recusandae, aperiam dicta officiis eveniet fuga quidem veritatis asperiores suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia eius, natus id, ipsum sed aliquid iste expedita quae suscipit excepturi qui fugit incidunt autem. Provident laudantium at omnis tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dicta sed tempora eaque sint, culpa nostrum repudiandae necessitatibus sunt. Magni aut numquam, ad repellendus consequuntur accusamus consequatur dicta neque voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui ab, delectus aut saepe et dolorum sed placeat consequuntur esse quis adipisci eos cum alias odio sapiente ad asperiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, placeat consectetur. Ullam ab sint ipsa fuga facere, harum cupiditate aut, necessitatibus provident ipsam praesentium velit magnam, beatae voluptatem voluptates hic! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, beatae animi placeat quidem quia voluptatem molestias ea rerum, quasi amet reiciendis? Autem doloribus ut natus quod. Voluptates debitis mollitia error!",
+        "specs": [
+          {
+            "title": "engine",
+            "values": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "title": "comfort",
+            "values": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "title": "safety",
+            "values": [
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
       }
     ]
   }

@@ -13,6 +13,9 @@ export class CarsViewerComponent implements OnInit {
   brand: string;
   carId: number;
   carImage: string;
+  engineSpecs;
+  comfortSpecs;
+  safetySpecs;
 
   constructor(private route: ActivatedRoute, private carsService: CarsService) { }
 
@@ -21,6 +24,9 @@ export class CarsViewerComponent implements OnInit {
     this.carId = +this.route.snapshot.paramMap.get('id');
     this.getCar(this.brand, this.carId);
     this.carImage = `../../../assets/cars/${this.carInfo.image}`;
+    this.engineSpecs = this.carInfo.specs[0];
+    this.comfortSpecs = this.carInfo.specs[1];
+    this.safetySpecs = this.carInfo.specs[2];
   }
 
   getCar(brandName: string, id: number) {
