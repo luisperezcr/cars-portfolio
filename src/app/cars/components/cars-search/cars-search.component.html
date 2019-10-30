@@ -1,1 +1,16 @@
-<p>cars-search works!</p>
+<div fxLayout fxLayoutGap="10px">
+  <mat-form-field>
+    <mat-label>Filter by brand</mat-label>
+    <mat-select [(ngModel)]="selectedBrand" (selectionChange)="onSelectChange($event)">
+      <mat-option value="chevrolet">Chevrolet</mat-option>
+      <mat-option value="ford">Ford</mat-option>
+      <mat-option value="nissan">Nissan</mat-option>
+      <mat-option value="toyota">Toyota</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <button
+    mat-button
+    color="primary"
+    *ngIf="!showAll"
+    (click)="clearFilter()">Clear</button>
+</div>

@@ -8,12 +8,22 @@ import { CarsService } from '../../services/cars.service';
 })
 export class CarsListComponent implements OnInit {
 
+  private data: [];
   carsData: [];
 
   constructor(private carsService: CarsService) { }
 
   ngOnInit() {
-    this.carsData = this.carsService.getCars();
+    this.data = this.carsService.getCars();
+    this.carsData = this.data;
   }
 
+  onFilter(brand: string) {
+    if (!brand) {
+      this.carsData = this.data;
+      return;
+    }
+    const result = this.carsService.getCarsByBrand(brand);
+    this.carsData = result;
+  }
 }

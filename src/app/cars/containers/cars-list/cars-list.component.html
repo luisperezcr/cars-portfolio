@@ -1,3 +1,5 @@
+<app-cars-search (filter)="onFilter($event)"></app-cars-search>
+
 <div *ngFor="let brand of carsData">
   <h2>{{ brand.brand_name }}</h2>
   <section class="cars-list" fxLayout="row wrap" fxLayoutGap="12px" fxLayoutAlign="flex-start">
