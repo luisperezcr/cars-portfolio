@@ -7,6 +7,7 @@ import { CarsItemComponent } from './components/cars-item/cars-item.component';
 import { SharedModule } from '../shared/shared.module';
 import { MaterialElevationDirective } from './directives/material-elevation.directive';
 import { CarsSearchComponent } from './components/cars-search/cars-search.component';
+import { CarsViewerComponent } from './components/cars-viewer/cars-viewer.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { CarsSearchComponent } from './components/cars-search/cars-search.compon
     CarsListComponent,
     CarsItemComponent,
     MaterialElevationDirective,
-    CarsSearchComponent
+    CarsSearchComponent,
+    CarsViewerComponent
   ],
   imports: [
     CommonModule,

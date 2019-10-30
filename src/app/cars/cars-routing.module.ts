@@ -2,9 +2,11 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { CarsListComponent } from './containers/cars-list/cars-list.component';
+import { CarsViewerComponent } from './components/cars-viewer/cars-viewer.component';
 
 const routes: Routes = [
-  { path: '', component: CarsListComponent }
+  { path: '', component: CarsListComponent },
+  { path: ':model/:id', component: CarsViewerComponent }
 ];
 
 @NgModule({
