@@ -1,0 +1,117 @@
+[
+  {
+    "chevrolet": [
+      {
+        "image": "chevrolet_camaro_zl1_2019",
+        "model": "Camaro ZL1",
+        "year": 2019,
+        "brand": "Chevrolet",
+        "price": 62000
+      },
+      {
+        "image": "chevrolet_cavalier_2019",
+        "model": "Cavalier Premium",
+        "year": 2019,
+        "brand": "Chevrolet",
+        "price": 24000
+      },
+      {
+        "image": "chevrolet_colorado_z71_2019",
+        "model": "Colorado Z71",
+        "year": 2019,
+        "brand": "Chevrolet",
+        "price": 32995
+      },
+      {
+        "image": "chevrolet_impala",
+        "model": "Impala",
+        "year": 2019,
+        "brand": "Chevrolet",
+        "price": 28000
+      }
+    ],
+    "ford": [
+      {
+        "image": "ford_explorer_2019",
+        "model": "Explorer",
+        "year": 2019,
+        "brand": "Ford",
+        "price": 45000
+      },
+      {
+        "image": "ford_f150_2019",
+        "model": "F-150",
+        "year": 2019,
+        "brand": "Ford",
+        "price": 65000
+      },
+      {
+        "image": "ford_raptor_2019",
+        "model": "Raptor",
+        "year": 2019,
+        "brand": "Ford",
+        "price": 55000
+      }
+    ],
+    "nissan": [
+      {
+        "image": "nissan_altima_2019",
+        "model": "Altima",
+        "year": 2019,
+        "brand": "Nissan",
+        "price": 26000
+      },
+      {
+        "image": "nissan_frontier_2019",
+        "model": "Frontier",
+        "year": 2019,
+        "brand": "Nissan",
+        "price": 35000
+      },
+      {
+        "image": "nissan_qashqai_2019",
+        "model": "Qashqai",
+        "year": 2019,
+        "brand": "Nissan",
+        "price": 36000
+      },
+      {
+        "image": "nissan_sentra_2019",
+        "model": "Sentra",
+        "year": 2019,
+        "brand": "Nissan",
+        "price": 25500
+      }
+    ],
+    "toyota": [
+      {
+        "image": "toyota_corolla_2019",
+        "model": "Corolla",
+        "year": 2019,
+        "brand": "Toyota",
+        "price": 23500
+      },
+      {
+        "image": "toyota_hilux_2019",
+        "model": "Hilux",
+        "year": 2019,
+        "brand": "Toyota",
+        "price": 32000
+      },
+      {
+        "image": "toyota_rav4_2019",
+        "model": "RAV4",
+        "year": 2019,
+        "brand": "Toyota",
+        "price": 38000
+      },
+      {
+        "image": "toyota_yaris_2019",
+        "model": "Yaris",
+        "year": 2019,
+        "brand": "Toyota",
+        "price": 24000
+      }
+    ]
+  }
+]
