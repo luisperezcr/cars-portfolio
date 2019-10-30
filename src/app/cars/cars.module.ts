@@ -6,13 +6,15 @@ import { CarsRoutingModule } from './cars-routing.module';
 import { CarsItemComponent } from './components/cars-item/cars-item.component';
 import { SharedModule } from '../shared/shared.module';
 import { MaterialElevationDirective } from './directives/material-elevation.directive';
+import { CarsSearchComponent } from './components/cars-search/cars-search.component';
 
 
 @NgModule({
   declarations: [
     CarsListComponent,
     CarsItemComponent,
-    MaterialElevationDirective
+    MaterialElevationDirective,
+    CarsSearchComponent
   ],
   imports: [
     CommonModule,
