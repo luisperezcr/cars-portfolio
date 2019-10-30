@@ -5,12 +5,14 @@ import { CarsService } from './services/cars.service';
 import { CarsRoutingModule } from './cars-routing.module';
 import { CarsItemComponent } from './components/cars-item/cars-item.component';
 import { SharedModule } from '../shared/shared.module';
+import { MaterialElevationDirective } from './directives/material-elevation.directive';
 
 
 @NgModule({
   declarations: [
     CarsListComponent,
-    CarsItemComponent
+    CarsItemComponent,
+    MaterialElevationDirective
   ],
   imports: [
     CommonModule,
