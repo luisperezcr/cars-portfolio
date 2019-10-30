@@ -16,4 +16,11 @@ export class CarsService {
   getCarsByBrand(filter: string) {
     return data.filter(brand => brand.brand_name.toLowerCase() === filter);
   }
+
+  getCar(brandName: string, id: number): Car {
+    const brandData = data.filter(brand => brand.brand_name.toLowerCase() === brandName);
+    const carInfo = brandData[0].cars.filter(car => car.id === id)[0];
+    if (!brandData || !carInfo) { return null; }
+    return carInfo;
+  }
 }

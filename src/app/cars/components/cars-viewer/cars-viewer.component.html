@@ -1,1 +1,29 @@
-<p>cars-viewer works!</p>
+<main fxLayout="column">
+  <a [routerLink]="['/cars']">Go back to cars</a>
+  <div class="car-viewer">
+    <header fxLayout="column" fxLayoutGap="5px">
+      <div fxLayout fxLayoutGap="15px" fxLayoutAlign="start center">
+        <h2 class="title">{{ brand | titlecase }} {{ carInfo.model }}</h2>
+        <span class="year">{{ carInfo.year }}</span>
+      </div>
+      <span class="price">${{ carInfo.price | number }}</span>
+    </header>
+    <div class="content">
+      <img [src]="carImage" alt="{{ brand | titlecase }} {{ carInfo.model }}">
+      <div>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium doloremque quod, minima architecto inventore qui ea itaque voluptatibus culpa recusandae, aperiam dicta officiis eveniet fuga quidem veritatis asperiores suscipit?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia eius, natus id, ipsum sed aliquid iste expedita quae suscipit excepturi qui fugit incidunt autem. Provident laudantium at omnis tempora.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dicta sed tempora eaque sint, culpa nostrum repudiandae necessitatibus sunt. Magni aut numquam, ad repellendus consequuntur accusamus consequatur dicta neque voluptate!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui ab, delectus aut saepe et dolorum sed placeat consequuntur esse quis adipisci eos cum alias odio sapiente ad asperiores inventore?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, placeat consectetur. Ullam ab sint ipsa fuga facere, harum cupiditate aut, necessitatibus provident ipsam praesentium velit magnam, beatae voluptatem voluptates hic!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, beatae animi placeat quidem quia voluptatem molestias ea rerum, quasi amet reiciendis? Autem doloribus ut natus quod. Voluptates debitis mollitia error!
+        </p>
+        <div class="specs">
+          <h3>Specs</h3>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

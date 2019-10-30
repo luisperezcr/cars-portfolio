@@ -6,7 +6,7 @@ import { CarsViewerComponent } from './components/cars-viewer/cars-viewer.compon
 
 const routes: Routes = [
   { path: '', component: CarsListComponent },
-  { path: ':model/:id', component: CarsViewerComponent }
+  { path: ':brand/:id', component: CarsViewerComponent }
 ];
 
 @NgModule({
