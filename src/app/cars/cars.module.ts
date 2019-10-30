@@ -8,7 +8,10 @@ import { CarsItemComponent } from './components/cars-item/cars-item.component';
 
 
 @NgModule({
-  declarations: [CarsListComponent, CarsItemComponent],
+  declarations: [
+    CarsListComponent,
+    CarsItemComponent
+  ],
   imports: [
     CommonModule,
     CarsRoutingModule
