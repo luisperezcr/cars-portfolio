@@ -1,6 +1,7 @@
 [
   {
-    "chevrolet": [
+    "brand_name": "Chevrolet",
+    "cars": [
       {
         "image": "chevrolet_camaro_zl1_2019",
         "model": "Camaro ZL1",
@@ -29,8 +30,11 @@
         "brand": "Chevrolet",
         "price": 28000
       }
-    ],
-    "ford": [
+    ]
+  },
+  {
+    "brand_name": "Ford",
+    "cars": [
       {
         "image": "ford_explorer_2019",
         "model": "Explorer",
@@ -46,14 +50,24 @@
         "price": 65000
       },
       {
+        "image": "ford_ranger_2019",
+        "model": "Ranger",
+        "year": 2019,
+        "brand": "Ford",
+        "price": 55000
+      },
+      {
         "image": "ford_raptor_2019",
         "model": "Raptor",
         "year": 2019,
         "brand": "Ford",
-        "price": 55000
+        "price": 75000
       }
-    ],
-    "nissan": [
+    ]
+  },
+  {
+    "brand_name": "Nissan",
+    "cars": [
       {
         "image": "nissan_altima_2019",
         "model": "Altima",
@@ -82,8 +96,11 @@
         "brand": "Nissan",
         "price": 25500
       }
-    ],
-    "toyota": [
+    ]
+  },
+  {
+    "brand_name": "Toyota",
+    "cars": [
       {
         "image": "toyota_corolla_2019",
         "model": "Corolla",
