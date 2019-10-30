@@ -1,9 +1,13 @@
 .card {
-  width: 350px;
-  height: 350px;
+  width: 375px;
+  height: 375px;
   border-radius: 4px;
   display: block;
   background-color: #FFF;
+}
+
+.card:hover {
+  cursor: pointer;
 }
 
 .card-header {
