@@ -11,7 +11,12 @@ This project is a car portfolio to see different brand cars and models.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+In order to see the app locally, do the following:
+
+1. Clone the repo to a local repo.
+2. Run `yarn` to install dependencies.
+3. Run `ng serve` and navigate to `http://localhost:4200/`.
+4. The app will automatically reload if you change any of the source files.
 
 ## Build
 
