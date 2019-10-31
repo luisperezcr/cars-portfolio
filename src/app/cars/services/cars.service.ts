@@ -22,8 +22,9 @@ export class CarsService {
   // Get specific car by brand and id
   getCar(brandName: string, id: number): Car {
     const brandData = data.filter(brand => brand.brand_name.toLowerCase() === brandName);
+    if (!brandData) { return null; }
     const carInfo = brandData[0].cars.filter(car => car.id === id)[0];
-    if (!brandData || !carInfo) { return null; }
+    if (!carInfo) { return null; }
     return carInfo;
   }
 }

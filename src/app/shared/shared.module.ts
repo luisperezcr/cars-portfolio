@@ -3,9 +3,12 @@ import { CommonModule } from '@angular/common';
 import { MaterialModule } from './material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule } from '@angular/forms';
+import { FallbackPageComponent } from '../fallback-page/fallback-page.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    FallbackPageComponent
+  ],
   imports: [
     CommonModule,
     MaterialModule,

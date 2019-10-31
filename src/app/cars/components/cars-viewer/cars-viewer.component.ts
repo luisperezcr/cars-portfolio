@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { CarsService } from '../../services/cars.service';
 import { Car } from '../../models/car.interface';
 
@@ -17,7 +17,11 @@ export class CarsViewerComponent implements OnInit {
   comfortSpecs;
   safetySpecs;
 
-  constructor(private route: ActivatedRoute, private carsService: CarsService) { }
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router,
+    private carsService: CarsService
+  ) { }
 
   ngOnInit() {
     // Gets the data from route
@@ -26,15 +30,21 @@ export class CarsViewerComponent implements OnInit {
 
     // Gets the specific car using brand and car id
     this.getCar(this.brand, this.carId);
-    this.carImage = `../../../assets/cars/${this.carInfo.image}`;
-
-    // We can do this because we know the order and specs we have
-    this.engineSpecs = this.carInfo.specs[0];
-    this.comfortSpecs = this.carInfo.specs[1];
-    this.safetySpecs = this.carInfo.specs[2];
+    if (this.carInfo) {
+      this.carImage = `../../../assets/cars/${this.carInfo.image}`;
+      // We can do this because we know the order and specs we have
+      this.engineSpecs = this.carInfo.specs[0];
+      this.comfortSpecs = this.carInfo.specs[1];
+      this.safetySpecs = this.carInfo.specs[2];
+    }
   }
 
   getCar(brandName: string, id: number) {
     this.carInfo = this.carsService.getCar(brandName, id);
+
+    // Redirect to main page if we got nothing
+    if (!this.carInfo) {
+      this.router.navigate(['/404-page']);
+    }
   }
 }

@@ -27,7 +27,7 @@ export class CarsCompareToolComponent implements OnInit, OnDestroy {
       this.carsToCompare = cars;
     });
     // If you got in this page but we don't have cars to compare, return to main page
-    if (this.carsToCompare.length === 0) { this.router.navigate(['/cars']); }
+    if (this.carsToCompare.length < 1) { this.router.navigate(['/cars']); }
   }
 
   // Go back to main page and clear the array
