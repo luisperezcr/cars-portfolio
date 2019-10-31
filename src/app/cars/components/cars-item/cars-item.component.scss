@@ -23,6 +23,7 @@ a:hover, a:active {
   display: block;
   background-color: #FFF;
   cursor: pointer;
+  margin-bottom: 12px;
 }
 
 .card-header {
@@ -49,4 +50,10 @@ a:hover, a:active {
 .card-content img {
   width: 100%;
   height: 100%;
+}
+
+@media screen and (max-width: 426px) {
+  .card {
+    width: 100%;
+  }
 }

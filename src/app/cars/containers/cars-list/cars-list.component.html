@@ -1,4 +1,6 @@
-<div>
+<div
+  fxLayout.gt-xs="row"
+  fxLayout="column">
   <app-cars-search (filter)="onFilter($event)"></app-cars-search>
   <span fxFlex></span>
   <button
@@ -9,7 +11,7 @@
 
 <div *ngFor="let brand of carsData">
   <h2>{{ brand.brand_name }}</h2>
-  <section class="cars-list" fxLayout="row wrap" fxLayoutGap="12px" fxLayoutAlign="flex-start">
+  <section class="cars-list" fxLayout="row wrap" fxLayoutGap.gt-xs="12px">
     <div *ngFor="let car of brand.cars">
       <app-cars-item
         [showCheckbox]="showCheckbox"

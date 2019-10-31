@@ -5,3 +5,13 @@ mat-toolbar {
 main {
   padding: 2em 4em;
 }
+
+@media screen and (max-width: 426px) {
+  main {
+    padding: 1em;
+  }
+
+  mat-toolbar {
+    padding: 0 1em;
+  }
+}

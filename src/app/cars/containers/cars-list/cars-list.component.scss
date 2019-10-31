@@ -12,3 +12,9 @@ button[mat-raised-button] {
   height: 36px;
   width: 170px;
 }
+
+@media screen and (max-width: 426px) {
+  h2 {
+    font-size: 2em;
+  }
+}

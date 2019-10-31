@@ -48,3 +48,29 @@ a:hover {
   font-size: 1.2em;
   color: #212121;
 }
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 1.2em;
+  }
+  
+  .year {
+    font-size: 0.9em;
+  }
+  
+  .price {
+    font-size: 0.85em;
+  }
+
+  .description {
+    line-height: 1.1em;
+  }
+
+  .specs h3 {
+    font-size: 1em;
+  }
+
+  ul > li {
+    font-size: 0.95em;
+  }
+}

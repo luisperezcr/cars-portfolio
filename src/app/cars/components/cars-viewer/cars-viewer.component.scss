@@ -56,3 +56,39 @@ a:hover {
   font-size: 1.2em;
   color: #212121;
 }
+
+@media screen and (max-width: 650px) {
+  .title {
+    font-size: 1.6em;
+  }
+  
+  .year {
+    font-size: 1em;
+  }
+  
+  .price {
+    font-size: 0.85em;
+  }
+
+  .car-viewer img {
+    height: 65vh;
+  }
+
+  .car-viewer .description {
+    font-size: 1em;
+    line-height: 1.2em;
+    margin-bottom: 30px;
+  }
+
+  .specs h2 {
+    font-size: 1.2em;
+  }
+  
+  .specs-wrapper h3 {
+    font-size: 1em;
+  }
+
+  ul > li {
+    font-size: 0.95em;
+  }
+}
