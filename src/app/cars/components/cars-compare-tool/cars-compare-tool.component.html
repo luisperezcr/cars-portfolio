@@ -1,8 +1,15 @@
-<a
-  [routerLink]="['/cars']"
-  fxLayout
-  fxLayoutGap="10px"
-  fxLayoutAlign="start center">
-  <mat-icon aria-hidden="false" aria-label="Go back">keyboard_arrow_left</mat-icon>
-  Go back
-</a>
+<div>
+  <a
+    [routerLink]="['/cars']"
+    fxLayout
+    fxLayoutGap="10px"
+    fxLayoutAlign="start center"
+    (click)="onGoBack()">
+    <mat-icon aria-hidden="false" aria-label="Go back">keyboard_arrow_left</mat-icon>
+    Go back
+  </a>
+
+  <section>
+    
+  </section>
+</div>
