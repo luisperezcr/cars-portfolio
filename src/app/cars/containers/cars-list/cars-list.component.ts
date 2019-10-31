@@ -1,8 +1,12 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Select, Store } from '@ngxs/store';
+import { CompareState } from '../../../state/compare.state';
 import { Router } from '@angular/router';
 import { CarsService } from '../../services/cars.service';
 import { Car } from '../../models/car.interface';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { AddCar, RemoveCar, RemoveAll } from '../../../actions/compare.actions';
 
 @Component({
   selector: 'app-cars-list',
@@ -10,6 +14,8 @@ import { MatSnackBar } from '@angular/material/snack-bar';
   styleUrls: ['./cars-list.component.scss']
 })
 export class CarsListComponent implements OnInit {
+  @Select(CompareState.getCars)
+  cars$: Observable<Car>;
 
   private data: [];
   carsData: [];
@@ -18,6 +24,7 @@ export class CarsListComponent implements OnInit {
   compareBtnText = 'Compare cars';
 
   constructor(
+    private store: Store,
     private router: Router,
     private carsService: CarsService,
     private _snackBar: MatSnackBar
@@ -26,6 +33,10 @@ export class CarsListComponent implements OnInit {
   ngOnInit() {
     this.data = this.carsService.getCars();
     this.carsData = this.data;
+
+    this.cars$.subscribe((cars: any) => {
+      this.selectedCars = cars;
+    });
   }
 
   onFilter(brand: string) {
@@ -44,20 +55,20 @@ export class CarsListComponent implements OnInit {
 
     this.showCheckbox = !this.showCheckbox;
     this.compareBtnText = this.showCheckbox ? 'Cancel' : 'Compare cars';
-    this.selectedCars = this.selectedCars.slice();
+    this.store.dispatch(new RemoveAll());
   }
 
   onCarSelected(data: { carInfo: Car, checked: boolean }) {
     if (data.checked) {
       if (this.selectedCars.length === 2) {
         this.showCheckbox = false;
-        this.selectedCars.push(data.carInfo);
+        this.store.dispatch(new AddCar(data.carInfo));
         this.router.navigate(['cars/compare-tool']);
         return;
       }
-      this.selectedCars.push(data.carInfo);
+      this.store.dispatch(new AddCar(data.carInfo));
     } else {
-      this.selectedCars = this.selectedCars.filter(car => car.id !== data.carInfo.id);
+      this.store.dispatch(new RemoveCar(data.carInfo.id));
       this.showCheckbox = true;
     }
   }
