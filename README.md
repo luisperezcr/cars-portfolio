@@ -1,6 +1,6 @@
 # Cars Portfolio
 
-This project was created as a car portfolio to show to users.
+This project is a car portfolio to see different brand cars and models.
 
 ## Tools used
 
