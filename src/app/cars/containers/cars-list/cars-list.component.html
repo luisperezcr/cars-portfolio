@@ -4,7 +4,11 @@
   <h2>{{ brand.brand_name }}</h2>
   <section class="cars-list" fxLayout="row wrap" fxLayoutGap="12px" fxLayoutAlign="flex-start">
     <div *ngFor="let car of brand.cars">
-      <app-cars-item [brand]="brand.brand_name" [carInfo]="car"></app-cars-item>
+      <app-cars-item
+        [showCheckbox]="showCheckbox"
+        [brand]="brand.brand_name"
+        [carInfo]="car"
+        (selected)="onCarSelected($event)"></app-cars-item>
     </div>
   </section>
 </div>

@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Car } from '../../models/car.interface';
 
 @Component({
@@ -9,6 +9,8 @@ import { Car } from '../../models/car.interface';
 export class CarsItemComponent implements OnInit {
   @Input() brand: string;
   @Input() carInfo: Car;
+  @Input() showCheckbox: boolean;
+  @Output() selected: EventEmitter<{ carInfo: Car, checked: boolean }> = new EventEmitter<{ carInfo: Car, checked: boolean }>();
   carImage: string;
   lowerCaseBrand: string;
 
@@ -20,4 +22,7 @@ export class CarsItemComponent implements OnInit {
     this.lowerCaseBrand = this.brand.toLocaleLowerCase();
   }
 
+  onSelectedChange(checked: boolean) {
+    this.selected.emit({ carInfo: this.carInfo, checked: checked });
+  }
 }

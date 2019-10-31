@@ -1,3 +1,13 @@
+.card-wrapper {
+  position: relative;
+}
+
+.card-wrapper mat-checkbox {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+}
+
 a {
   text-decoration: none;
 }
@@ -13,10 +23,6 @@ a:hover, a:active {
   display: block;
   background-color: #FFF;
   cursor: pointer;
-}
-
-.card:hover {
-  transform: translate(2px, -2px);
 }
 
 .card-header {
