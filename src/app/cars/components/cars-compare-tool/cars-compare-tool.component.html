@@ -9,7 +9,33 @@
     Go back
   </a>
 
-  <section>
-    
+  <section
+    fxLayout
+    fxLayoutGap="10px">
+    <div
+      fxFlex
+      class="car-info"
+      *ngFor="let car of carsToCompare">
+
+      <header fxLayout="column" fxLayoutGap="5px">
+        <div fxLayout fxLayoutGap="10px" fxLayoutAlign="start center">
+          <h2 class="title">{{ car.brand }} {{ car.model }}</h2>
+          <span class="year">{{ car.year }}</span>
+        </div>
+        <span class="price">${{ car.price | number }}</span>
+      </header>
+      <hr>
+      <div>
+        <p class="description">{{ car.summary }}</p>
+        <div fxLayout="column" class="specs">
+          <div *ngFor="let specInfo of car.specs">
+            <h3>{{ specInfo.title | titlecase }}</h3>
+            <ul *ngFor="let spec of specInfo.values">
+              <li>{{ spec }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </div>

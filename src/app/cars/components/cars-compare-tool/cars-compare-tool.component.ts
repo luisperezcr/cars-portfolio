@@ -1,4 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Router } from '@angular/router';
 import { Select, Store } from '@ngxs/store';
 import { Observable, Subscription } from 'rxjs';
 import { CompareState } from '../../../state/compare.state';
@@ -17,12 +18,13 @@ export class CarsCompareToolComponent implements OnInit, OnDestroy {
 
   carsToCompare: Car[];
 
-  constructor(private store: Store) { }
+  constructor(private store: Store, private router: Router) { }
 
   ngOnInit() {
     this.carsSubscription = this.cars$.subscribe((cars: any) => {
       this.carsToCompare = cars;
     });
+    if (this.carsToCompare.length === 0) { this.router.navigate(['/cars']); }
   }
 
   onGoBack() {

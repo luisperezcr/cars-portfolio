@@ -6,5 +6,6 @@ export interface Car {
   brand: string;
   price: number;
   description: string;
+  summary: string;
   specs: string[];
 }
