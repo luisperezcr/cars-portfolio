@@ -1,4 +1,11 @@
-<app-cars-search (filter)="onFilter($event)"></app-cars-search>
+<div>
+  <app-cars-search (filter)="onFilter($event)"></app-cars-search>
+  <span fxFlex></span>
+  <button
+    mat-raised-button
+    color="primary"
+    (click)="activeCompare()">{{ compareBtnText }}</button>
+</div>
 
 <div *ngFor="let brand of carsData">
   <h2>{{ brand.brand_name }}</h2>
