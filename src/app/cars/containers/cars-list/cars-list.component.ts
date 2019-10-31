@@ -36,7 +36,7 @@ export class CarsListComponent implements OnInit {
       if (this.selectedCars.length === 2) {
         this.showCheckbox = false;
         this.selectedCars.push(data.carInfo);
-        this.router.navigate(['/compare-tool']);
+        this.router.navigate(['cars/compare-tool']);
         return;
       }
       this.selectedCars.push(data.carInfo);
@@ -44,6 +44,5 @@ export class CarsListComponent implements OnInit {
       this.selectedCars = this.selectedCars.filter(car => car.id !== data.carInfo.id);
       this.showCheckbox = true;
     }
-    console.log(this.selectedCars);
   }
 }

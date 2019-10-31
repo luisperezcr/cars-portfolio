@@ -8,6 +8,7 @@ import { SharedModule } from '../shared/shared.module';
 import { MaterialElevationDirective } from './directives/material-elevation.directive';
 import { CarsSearchComponent } from './components/cars-search/cars-search.component';
 import { CarsViewerComponent } from './components/cars-viewer/cars-viewer.component';
+import { CarsCompareToolComponent } from './components/cars-compare-tool/cars-compare-tool.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { CarsViewerComponent } from './components/cars-viewer/cars-viewer.compon
     CarsItemComponent,
     MaterialElevationDirective,
     CarsSearchComponent,
-    CarsViewerComponent
+    CarsViewerComponent,
+    CarsCompareToolComponent
   ],
   imports: [
     CommonModule,
