@@ -1,4 +1,4 @@
-// This code was found at: https://stackblitz.com/edit/angular-material-elevation-hover?file=src%2Fapp%2Fapp.component.html
+// This code was taken from: https://stackblitz.com/edit/angular-material-elevation-hover?file=src%2Fapp%2Fapp.component.html
 
 import { Directive, ElementRef, HostListener, Input, Renderer2, OnChanges, SimpleChanges } from '@angular/core';
 

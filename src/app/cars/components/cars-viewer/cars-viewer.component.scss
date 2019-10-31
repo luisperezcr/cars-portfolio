@@ -88,7 +88,9 @@ a:hover {
     font-size: 1em;
   }
 
-  ul > li {
-    font-size: 0.95em;
+  ul {
+    li {
+      font-size: 0.95em;
+    }
   }
 }

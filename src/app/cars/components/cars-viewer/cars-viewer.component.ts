@@ -20,10 +20,15 @@ export class CarsViewerComponent implements OnInit {
   constructor(private route: ActivatedRoute, private carsService: CarsService) { }
 
   ngOnInit() {
+    // Gets the data from route
     this.brand = this.route.snapshot.paramMap.get('brand');
     this.carId = +this.route.snapshot.paramMap.get('id');
+
+    // Gets the specific car using brand and car id
     this.getCar(this.brand, this.carId);
     this.carImage = `../../../assets/cars/${this.carInfo.image}`;
+
+    // We can do this because we know the order and specs we have
     this.engineSpecs = this.carInfo.specs[0];
     this.comfortSpecs = this.carInfo.specs[1];
     this.safetySpecs = this.carInfo.specs[2];

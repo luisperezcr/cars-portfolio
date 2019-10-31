@@ -9,14 +9,17 @@ export class CarsService {
 
   constructor() { }
 
+  // Return all data
   getCars = () => {
     return data;
   }
 
+  // Get cars filtered by brand
   getCarsByBrand(filter: string) {
     return data.filter(brand => brand.brand_name.toLowerCase() === filter);
   }
 
+  // Get specific car by brand and id
   getCar(brandName: string, id: number): Car {
     const brandData = data.filter(brand => brand.brand_name.toLowerCase() === brandName);
     const carInfo = brandData[0].cars.filter(car => car.id === id)[0];

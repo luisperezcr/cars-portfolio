@@ -7,10 +7,18 @@ import { Car } from '../../models/car.interface';
   styleUrls: ['./cars-item.component.scss']
 })
 export class CarsItemComponent implements OnInit {
-  @Input() brand: string;
-  @Input() carInfo: Car;
-  @Input() showCheckbox: boolean;
-  @Output() selected: EventEmitter<{ carInfo: Car, checked: boolean }> = new EventEmitter<{ carInfo: Car, checked: boolean }>();
+  @Input()
+  brand: string;
+
+  @Input()
+  carInfo: Car;
+
+  @Input()
+  showCheckbox: boolean;
+
+  @Output()
+  selected: EventEmitter<{ carInfo: Car, checked: boolean }> = new EventEmitter<{ carInfo: Car, checked: boolean }>();
+
   carImage: string;
   lowerCaseBrand: string;
 
@@ -22,6 +30,7 @@ export class CarsItemComponent implements OnInit {
     this.lowerCaseBrand = this.brand.toLocaleLowerCase();
   }
 
+  // When compare tool is active, we need to notify if a card has been selected
   onSelectedChange(checked: boolean) {
     this.selected.emit({ carInfo: this.carInfo, checked: checked });
   }

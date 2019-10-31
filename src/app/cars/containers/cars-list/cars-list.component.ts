@@ -34,11 +34,13 @@ export class CarsListComponent implements OnInit {
     this.data = this.carsService.getCars();
     this.carsData = this.data;
 
+    // We need to know how many selected cars we have
     this.cars$.subscribe((cars: any) => {
       this.selectedCars = cars;
     });
   }
 
+  // Listens for changes on the filter component
   onFilter(brand: string) {
     if (!brand) {
       this.carsData = this.data;
@@ -48,6 +50,7 @@ export class CarsListComponent implements OnInit {
     this.carsData = result;
   }
 
+  // Enable the compare tool for users
   activeCompare() {
     if (!this.showCheckbox) {
       this.showCheckbox = true;
@@ -62,16 +65,20 @@ export class CarsListComponent implements OnInit {
     }
   }
 
+  // Manage if a car is selected to compare
   onCarSelected(data: { carInfo: Car, checked: boolean }) {
+    // If the cars was selected
     if (data.checked) {
+      // We can add up to 3 cars to compare
       if (this.selectedCars.length < 3) {
         this.store.dispatch(new AddCar(data.carInfo));
       }
-    } else {
+    } else { // If the cars was unselected
       this.store.dispatch(new RemoveCar(data.carInfo.id));
       this.showCheckbox = true;
     }
 
+    // If we selected 3 automatically navigate to compare tool
     if (this.selectedCars.length === 3) {
       this.router.navigate(['cars/compare-tool']);
     }
@@ -82,6 +89,7 @@ export class CarsListComponent implements OnInit {
     }
   }
 
+  // Open snackbar to notify the user to select cars
   openSnackBar(message: string, action: string) {
     this._snackBar.open(message, action, {
       duration: 5000,
