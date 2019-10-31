@@ -50,26 +50,35 @@ export class CarsListComponent implements OnInit {
 
   activeCompare() {
     if (!this.showCheckbox) {
-      this.openSnackBar('Select up to 3 cars', 'OK');
+      this.showCheckbox = true;
+      this.openSnackBar('Select at least 2 and up to 3 cars to compare', 'OK');
+      this.compareBtnText = 'Cancel';
+    } else if (this.selectedCars.length < 2) {
+      this.showCheckbox = false;
+      this.compareBtnText = 'Compare cars';
+      this.store.dispatch(new RemoveAll());
+    } else {
+      this.router.navigate(['cars/compare-tool']);
     }
-
-    this.showCheckbox = !this.showCheckbox;
-    this.compareBtnText = this.showCheckbox ? 'Cancel' : 'Compare cars';
-    this.store.dispatch(new RemoveAll());
   }
 
   onCarSelected(data: { carInfo: Car, checked: boolean }) {
     if (data.checked) {
-      if (this.selectedCars.length === 2) {
-        this.showCheckbox = false;
+      if (this.selectedCars.length < 3) {
         this.store.dispatch(new AddCar(data.carInfo));
-        this.router.navigate(['cars/compare-tool']);
-        return;
       }
-      this.store.dispatch(new AddCar(data.carInfo));
     } else {
       this.store.dispatch(new RemoveCar(data.carInfo.id));
       this.showCheckbox = true;
+    }
+
+    if (this.selectedCars.length === 3) {
+      this.router.navigate(['cars/compare-tool']);
+    }
+    if (this.selectedCars.length > 1) {
+      this.compareBtnText = 'Go to compare';
+    } else {
+      this.compareBtnText = 'Cancel';
     }
   }
 
